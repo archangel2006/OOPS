@@ -54,7 +54,7 @@ public:
     void add() {
         int sumReal = real + real2;
         int sumImg = img + img2;
-        cout << "Sum = " << sumReal << " + " << sumImg << "i" << endl;
+        cout << "Sum (Base + Derived)= " << sumReal << " + " << sumImg << "i" << endl;
     }
 
     friend class ComplexFriend;
