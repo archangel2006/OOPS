@@ -12,7 +12,7 @@ int main(){
     cout << "Angle3:" ;
     cin >> angle3;
 
-    string result = (angle1 + angle2 +angle3 ==180) ? " Valid Triangle" : "Invalid Triangle";
+    string result = (angle1 + angle2 +angle3 == 180) ? " Valid Triangle" : "Invalid Triangle";
     cout << result << endl;
 
     return 0;
