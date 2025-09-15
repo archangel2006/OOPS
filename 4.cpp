@@ -74,7 +74,7 @@ public:
         cout << "1. String instruments\n";
         cout << "2. Wind instruments\n";
         cout << "3. Percussion instruments\n";
-        cout << "Enter your choice: ";
+        cout << "\nEnter your choice: ";
         cin >> choice;
 
         //based on choice, show relevant instruments

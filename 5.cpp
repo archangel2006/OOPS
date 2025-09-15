@@ -40,7 +40,7 @@ class ComplexDerived : public ComplexBase {
 
 public:
     ComplexDerived() {
-        cout << "Enter real part of derived complex number: ";
+        cout << "\nEnter real part of derived complex number: ";
         cin >> real2;
         cout << "Enter imaginary part of derived complex number: ";
         cin >> img2;
