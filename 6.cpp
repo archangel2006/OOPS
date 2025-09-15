@@ -1,0 +1,3 @@
+// 6. Create a base class student. Create a function get() to get the student details including roll number and marks of 3 subjects.
+// Create a derived class sports. Declare and define the function getsm() to input the sports marks of the student.
+// Create a class reportcard derived from student and sports. Create the function display() to find out the total and average of all marks of the student including sports marks. Display the report card results.

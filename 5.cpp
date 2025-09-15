@@ -1,0 +1,2 @@
+// 5. Create a base class that asks the user to enter a complex number having two components – real and img. Also create a method in the base class to display the user input.
+// Create a derived class that accepts another complex number from user and adds the complex number of its own with the base. Display the added result. Finally make a third class that is friend of derived and calculates the difference of base complex number and its own complex number. Display the result.

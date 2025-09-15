@@ -1,0 +1,1 @@
+// 7. Write a C++ program to demonstrate multiple inheritance by creating a class cuboid which extends class rectangle, class shape. It calculates area and volume. Use appropriate constructors and member variables.
