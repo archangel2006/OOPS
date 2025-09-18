@@ -3,15 +3,27 @@
 #include <iostream>
 using namespace std;
 
-int manin(){
+int main(){
     int x,y;
-    cout << "Enter 1st Number:";
+    cout << "Enter 1st Number: ";
     cin >> x;
-    cout << "Enter 2nd Number:";
+    cout << "Enter 2nd Number: ";
     cin >> y;
 
-    int result = (x>y) ? (x/y) : (x*y);
-    cout << "Result:" << result <<endl;
+    int result;
+
+    if (x > y) {
+        if (y != 0) {  // avoid divide by zero
+            result = x / y;
+        } else {
+            cout << "Error: Division by zero is not allowed." << endl;
+            return 1; // exit with error
+        }
+    } else {
+        result = x * y;
+    }
+
+    cout << "Result: " << result << endl;
 
     return 0;
 }

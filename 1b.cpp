@@ -6,10 +6,10 @@ using namespace std;
 
 int main(){
     int num;
-    cout <<"Enter Number:";
+    cout <<"Enter Number: ";
     cin >> num;
 
-    cout << num << "is" << ((num%2 ==0)?"Even" : "Odd") << endl;
+    cout << num << " is " << ((num%2 ==0)?"Even" : "Odd") << endl;
 
     return 0;
 }

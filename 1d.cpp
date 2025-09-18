@@ -5,10 +5,10 @@ using namespace std;
 
 int main(){
     int n;
-    cout << "Enter Number";
+    cout << "Enter Number: ";
     cin >> n;
 
-    cout << n << "is" << ((n>=0) ? "Positive":"Negative") <<endl;
+    cout << n << " is " << ((n>=0) ? "Positive":"Negative") <<endl;
 
     return 0;
 }
